@@ -1,0 +1,189 @@
+html, body {
+  width: 100% ;
+  height: 100% ;
+
+}
+
+
+body, bg-img {
+  background: url("https://i.postimg.cc/4y8y8p8M/DSC-1452.jpg")center center no-repeat;
+  position: center;
+  width: 100%;
+  height: 100% ;
+  background-size: cover;
+
+
+  }
+
+
+
+ul {
+  list-style-type: inline-block;
+  margin: 0;
+  padding: 2px;
+  overflow: visible;
+  background-color: #;
+  width: 100px ;
+  position:relative;
+  opacity: 1.0;
+  text-align: center;
+  border-radius: 10px;
+   font-family: 'Bebas Neue';
+
+}
+
+li {
+  float: center:
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+    opacity: 1.0;
+    border-radius: 10px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #2c4762;
+  opacity: 1.0;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffff9e;
+  opacity: 0.7;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;
+
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1{
+ text-align: center;
+ padding-left:px;
+ color:#ffffff;
+ font-size: 45px;
+ position: center;
+ padding-top: 75px;
+ padding-right:px;
+ font-family: "Arial Black", Gadget, sans-serif;
+
+}
+
+
+h2{
+ text-align: center;
+ padding-left: px;
+ color:#ffffff;
+ font-size: 15px;
+ position: center;
+ padding-top: 10px;
+ padding-right:px;
+ font-family: sans-serif;
+
+}
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: px;
+  height: 10px;
+  size:8px;
+  text-align: center;
+  text-decoration: none;
+  margin: px ;
+  position: center;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+  border-radius: 25px;
+  size:15px;
+
+}
+
+
+a.fa.fa-tumblr{
+
+  size;10;
+}
+
+
+
+footer{
+
+  padding-left: px;
+  position: center;
+  text-align: center;
+  position: relative;
+
+}
+
+
+p{
+
+  color: white;
+  display: inline;
+  padding-top: 3px;
+  margin: 9px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 35px;
+   background-color: #000000;
+   color: white;
+
+   text-align: center;
+   font-family: sans-serif;
+   padding-bottom: 0px;
+   font-size: 10px;
+   display: inline-block;
+   position: center;
+   padding-top: 9px;
+
+
+}
+
+
+body:after{
+   display:block ;
+   content:"";
+   clear:both;
+
+}
